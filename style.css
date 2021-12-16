@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav{
@@ -12,12 +17,14 @@ nav{
     padding: 1.5rem 1.25rem;
 }
 
-.nav-link{
-    
-}
+
 
 .nav-link-menu{
     display: grid;
     grid-auto-flow: column;
     column-gap: 1.5rem;
+}
+
+.nav-link{
+    
 }
