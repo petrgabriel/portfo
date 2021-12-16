@@ -1,3 +1,9 @@
+:root{
+    --colors-text: #000000;
+    --colors-accent: #ff0000;
+    
+
+}
 * {
     margin: 0;
     padding: 0;
@@ -23,8 +29,11 @@ nav{
     display: grid;
     grid-auto-flow: column;
     column-gap: 1.5rem;
+    
 }
 
 .nav-link{
+    color: var(--colors-text);
+    text-decoration: none;
     
 }
