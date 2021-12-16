@@ -1,7 +1,7 @@
 :root{
     --colors-text: #000000;
     --colors-accent: #ff0000;
-    
+    --text-big-mobile: 2.6rem
 
 }
 * {
@@ -53,6 +53,11 @@ nav{
     
 }
 
+.text-large{
+    font-size: var(--text-big-mobile);
+    font-weight: 300;
+}
+
 .ellipse{
     width: 8rem;
     height: 8rem;
@@ -64,4 +69,8 @@ nav{
 .ellipse-container{
     display: flex;
     justify-content:flex-end;
+}
+
+@media screen {
+    
 }
