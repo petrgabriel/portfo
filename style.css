@@ -37,3 +37,31 @@ nav{
     text-decoration: none;
     
 }
+
+.section{
+    padding: 0rem 1.25rem;
+    min-height: 100vh;
+
+
+}
+
+.section-1-content{
+    margin-top: 12rem;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 1.5rem;
+    
+}
+
+.ellipse{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--colors-accent);
+    border-radius: 50%;
+    
+}
+
+.ellipse-container{
+    display: flex;
+    justify-content:flex-end;
+}
