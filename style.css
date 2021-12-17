@@ -74,6 +74,20 @@ nav{
     font-weight: 300;
 }
 
+.text-1-large{
+    font-size: var(--text-big-mobile);
+    font-weight: 300;
+    margin-block-start: 10rem;
+}
+
+.text-2-large{
+    font-size: var(--text-big-mobile);
+    font-weight: 300;
+    margin-block-end: 10rem;
+    margin-top: 10rem;
+}
+
+
 .ellipse{
     width: 8rem;
     height: 8rem;
