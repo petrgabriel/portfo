@@ -1,7 +1,9 @@
 :root{
     --colors-text: #000000;
     --colors-accent: #ff0000;
-    --text-big-mobile: 2.1rem
+    --text-big-mobile: 2.1rem;
+
+    --header-height: 70px;
 
 }
 * {
@@ -12,15 +14,21 @@
     
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
 nav{
+    height: var(--header-height);
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 1.25rem;
+    align-items: center;
+    padding: 0 1.25rem;
 }
 
 
@@ -46,27 +54,27 @@ nav{
 }
 
 .section-1-content{
-    /*margin-top: 12rem;*/
-    margin-top: -1rem;
+    height: calc(100vh - var(--header-height));
     display: grid;
     grid-auto-flow: row;
-    row-gap: 1.5rem;
-    
+    align-items: center;
 }
 
 .section-2-content{
-    margin-top: 0rem;
     display: grid;
     grid-auto-flow: row;
     row-gap: 1.5rem;
+    align-items: center;
+    height: 100vh;
 }
 
+
+
 .section-3-content{
-    margin-block-end: 100rem;
     display: grid;
     grid-auto-flow: row;
-    row-gap: 1.5rem;
-    justify-items: center;
+    place-items: center;    
+    height: 100vh;
 }
 
 .section-4-content{
@@ -80,23 +88,11 @@ nav{
     margin: auto;
 }
 
-.text-large{
+.text-large {
     font-size: var(--text-big-mobile);
     font-weight: 300;
 }
 
-.text-1-large{
-    font-size: var(--text-big-mobile);
-    font-weight: 300;
-    margin-block-start: 10rem;
-}
-
-.text-2-large{
-    font-size: var(--text-big-mobile);
-    font-weight: 300;
-    margin-block-end: 10rem;
-    margin-top: 10rem;
-}
 
 .selected-work{
     margin-top: 4rem;
