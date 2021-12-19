@@ -6,6 +6,7 @@
     --text-big-desktop: 5rem;
 
     --header-height: 70px;
+    --header-height-desktop: 6.4rem;
 
 }
 * {
@@ -131,10 +132,9 @@ nav{
     color: var(--colors-accent);
 }
 
-.selected-work{
+.selected-work-title {
     margin-top: 4rem;
     font-weight: normal;
-    
 }
 
 .ellipse{
@@ -204,6 +204,7 @@ nav{
     }
 
     nav{
+        height: var(--header-height-desktop);
         padding: 0rem 5rem;
     }
     
@@ -220,5 +221,44 @@ nav{
     .skillz {
         font-size: 7.5rem;
         font-weight: 400;
+    }
+
+
+    .selected-work-title {
+        font-size: var(--text-big-desktop);
+        margin-bottom: 5rem;
+    }
+
+
+    .videos-container {
+         grid-template-columns: repeat(2, 1fr);
+         column-gap: 2.5rem;
+         margin-bottom: 5rem;
+    }
+
+
+    .project-figure:nth-of-type(2){
+        margin-top: 20rem;
+    }
+
+
+    .see-all {
+        font-size: 3rem;
+    }
+
+
+    footer .link {
+        font-size: 3rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1700px) {
+
+    .section {
+        padding: 0;
+        max-width: 1680px;
+        margin: 0 auto;
     }
 }
