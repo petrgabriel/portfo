@@ -101,6 +101,12 @@ nav{
 .selected-work{
     margin-top: 4rem;
     font-weight: normal;
+    
+}
+
+.selected-work-link{
+    text-decoration: none;
+    color: var(--colors-text);
 }
 
 .ellipse{
