@@ -1,5 +1,6 @@
 :root{
     --colors-text: #000000;
+    --colors-label: #444444;
     --colors-accent: #ff0000;
     --text-big-mobile: 2.1rem;
 
@@ -83,8 +84,34 @@ nav{
     row-gap: 1.5rem;
 }
 
-.video-1{
-    margin: auto;
+.section-4-content a{
+    text-align: right;
+   
+}
+
+.section-4-content a:hover{
+    text-decoration: underline;
+}
+
+.selected-work-video{
+    width: 100%;
+    height: auto;
+}
+
+.videos-container{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 3rem;
+}
+
+.project-figure {
+
+}
+
+.project-label {
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    color: var(--colors-label);
 }
 
 .text-large {
@@ -114,10 +141,6 @@ nav{
 
 
 
-.
-
-
-
 .contact-title {
     font-size: 2rem;
 }
@@ -142,6 +165,22 @@ nav{
     grid-auto-flow: row;
     gap: 1rem;
     justify-items: center;
+}
+
+
+.work-page-heading {
+    margin: 3rem 0 2rem 0;
+}
+
+
+.project-heading {
+    margin-bottom: 1rem;
+}
+
+
+
+.project-description {
+    margin-top: 0.5rem;
 }
 
 @media screen {
