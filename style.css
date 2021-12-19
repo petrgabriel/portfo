@@ -3,6 +3,7 @@
     --colors-label: #444444;
     --colors-accent: #ff0000;
     --text-big-mobile: 2.1rem;
+    --text-big-desktop: 5rem;
 
     --header-height: 70px;
 
@@ -73,8 +74,8 @@ nav{
 .section-3-content{
     display: grid;
     grid-auto-flow: row;
-    place-items: center;    
     height: 100vh;
+    align-content: center;
 }
 
 .section-4-content{
@@ -119,6 +120,16 @@ nav{
     font-weight: 300;
 }
 
+
+.skillz {
+    font-size: var(--text-big-mobile);
+    font-weight: 300;
+    text-align: left;
+}
+
+.skillz-accent-slash {
+    color: var(--colors-accent);
+}
 
 .selected-work{
     margin-top: 4rem;
@@ -183,6 +194,31 @@ nav{
     margin-top: 0.5rem;
 }
 
-@media screen {
+@media screen and (min-width: 1280px) {
+    .text-large {
+        font-size: var(--text-big-desktop);
+    }
+
+    .section{
+        padding: 0rem 5rem;
+    }
+
+    nav{
+        padding: 0rem 5rem;
+    }
     
+    .section-1-content {
+        align-content: center;
+        height: auto;
+    }
+
+    .section-1-content .ellipse-container{
+        margin-top: 3rem;
+    }
+
+
+    .skillz {
+        font-size: 7.5rem;
+        font-weight: 400;
+    }
 }
