@@ -1,7 +1,7 @@
 :root{
     --colors-text: #000000;
     --colors-accent: #ff0000;
-    --text-big-mobile: 2.6rem
+    --text-big-mobile: 2.1rem
 
 }
 * {
@@ -46,17 +46,47 @@ nav{
 }
 
 .section-1-content{
-    margin-top: 12rem;
+    /*margin-top: 12rem;*/
+    margin-top: -1rem;
     display: grid;
     grid-auto-flow: row;
     row-gap: 1.5rem;
     
 }
 
+.section-2-content{
+    margin-top: 0rem;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 1.5rem;
+}
+
+.section-3-content{
+    margin-block-end: 100rem;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 1.5rem;
+    justify-items: center;
+}
+
 .text-large{
     font-size: var(--text-big-mobile);
     font-weight: 300;
 }
+
+.text-1-large{
+    font-size: var(--text-big-mobile);
+    font-weight: 300;
+    margin-block-start: 10rem;
+}
+
+.text-2-large{
+    font-size: var(--text-big-mobile);
+    font-weight: 300;
+    margin-block-end: 10rem;
+    margin-top: 10rem;
+}
+
 
 .ellipse{
     width: 8rem;
