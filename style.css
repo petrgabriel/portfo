@@ -106,9 +106,7 @@ nav{
     row-gap: 3rem;
 }
 
-.project-figure {
 
-}
 
 .project-label {
     text-transform: uppercase;
@@ -178,6 +176,10 @@ nav{
     justify-items: center;
 }
 
+.footer-links .link:hover {
+    text-decoration: underline;
+}
+
 
 .work-page-heading {
     margin: 3rem 0 2rem 0;
@@ -193,6 +195,19 @@ nav{
 .project-description {
     margin-top: 0.5rem;
 }
+
+.footer-title-holder {
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+
+.contact-title {
+    font-size: 4rem;
+    position: absolute;
+}
+
 
 @media screen and (min-width: 1280px) {
     .text-large {
@@ -250,6 +265,21 @@ nav{
     footer .link {
         font-size: 3rem;
     }
+
+    footer .ellipse {
+        width: 20rem;
+        height: 20rem;
+    }
+
+   
+    .footer-content {
+        row-gap: 5rem;
+    }
+
+    .contact-title {
+        font-size: 8rem;
+    }
+
 }
 
 
