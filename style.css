@@ -1,5 +1,6 @@
 :root{
     --colors-text: #000000;
+    --colors-label: #444444;
     --colors-accent: #ff0000;
     --text-big-mobile: 2.1rem;
 
@@ -83,8 +84,34 @@ nav{
     row-gap: 1.5rem;
 }
 
-.video-1{
-    margin: auto;
+.section-4-content a{
+    text-align: right;
+   
+}
+
+.section-4-content a:hover{
+    text-decoration: underline;
+}
+
+.selected-work-video{
+    width: 100%;
+    height: auto;
+}
+
+.videos-container{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 3rem;
+}
+
+.project-figure {
+
+}
+
+.project-label {
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    color: var(--colors-label);
 }
 
 .text-large {
@@ -111,10 +138,6 @@ nav{
     display: flex;
     justify-content:flex-end;
 }
-
-
-
-.
 
 
 
