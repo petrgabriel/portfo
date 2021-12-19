@@ -116,6 +116,28 @@ nav{
     justify-content:flex-end;
 }
 
+.ellipse-contact{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--colors-accent);
+    border-radius: 50%;
+    
+}
+
+.ellipse-contacts{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    margin: auto;
+    margin-top: -5.1rem;
+    font-weight: normal;
+    justify-content: center;
+    font-size: 2rem;
+}
+
 @media screen {
     
 }
