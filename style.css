@@ -69,6 +69,17 @@ nav{
     justify-items: center;
 }
 
+.section-4-content{
+    margin-top: 0rem;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 1.5rem;
+}
+
+.video-1{
+    margin: auto;
+}
+
 .text-large{
     font-size: var(--text-big-mobile);
     font-weight: 300;
@@ -87,6 +98,10 @@ nav{
     margin-top: 10rem;
 }
 
+.selected-work{
+    margin-top: 4rem;
+    font-weight: normal;
+}
 
 .ellipse{
     width: 8rem;
