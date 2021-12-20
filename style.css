@@ -22,7 +22,7 @@ html {
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 nav{
@@ -132,7 +132,7 @@ nav{
 
 .selected-work-title {
     margin-top: 4rem;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 .ellipse{
@@ -181,8 +181,29 @@ nav{
 }
 
 
+
+.footer-title-holder {
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+
+.contact-title {
+    font-size: 4rem;
+    position: absolute;
+}
+
+
+/* WORK PAGE */
 .work-page-heading {
     margin: 3rem 0 2rem 0;
+}
+
+.projects-list {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 3rem;
 }
 
 
@@ -196,17 +217,12 @@ nav{
     margin-top: 0.5rem;
 }
 
-.footer-title-holder {
-    position: relative;
-    display: grid;
-    place-items: center;
+.project-description-image {
+    width: 50%;
+    height: auto;
+    
 }
 
-
-.contact-title {
-    font-size: 4rem;
-    position: absolute;
-}
 
 
 @media screen and (min-width: 1280px) {
@@ -242,6 +258,7 @@ nav{
     .selected-work-title {
         font-size: var(--text-big-desktop);
         margin-bottom: 5rem;
+        
     }
 
 
@@ -280,11 +297,40 @@ nav{
         font-size: 8rem;
     }
 
+
+
+    /* WORK */
+    .projects-list {
+        row-gap: 10rem;
+    }
+
+    .project {
+        min-height: 100vh;
+    }
+
+    .project-heading {
+        font-size: 5rem;
+        font-weight: 300;
+    }
+
+
+
+    .project-description {
+        margin-top: 2rem;
+    }
+
 }
 
 
 
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1680px) {
+
+
+    nav {
+        padding: 0;
+        max-width: 1680px;
+        margin: 0 auto;
+    }
 
     .section {
         padding: 0;
