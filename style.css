@@ -132,6 +132,7 @@ nav{
 
 .selected-work-title {
     margin-top: 4rem;
+    margin-bottom: 2rem;
     font-weight: 300;
 }
 
@@ -203,7 +204,7 @@ nav{
 .projects-list {
     display: grid;
     grid-auto-flow: row;
-    row-gap: 3rem;
+    row-gap: 5rem;
 }
 
 
